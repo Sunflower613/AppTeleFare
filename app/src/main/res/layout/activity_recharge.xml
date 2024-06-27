@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvRechargeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="充话费"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etRechargeAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入充值金额"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"/>
+    <Spinner
+        android:id="@+id/spinnerCoupons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvCouponInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看我的优惠券"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnGetCoupon"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="领取优惠券"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnRecharge"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="充值"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="话费余额: ￥0.00"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

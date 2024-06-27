@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="欢迎使用手机充值APP"
+            android:textColor="#673AB7"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRechargeBalance"
+                style="@style/ButtonStyle"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:text="话费  ￥8.47" />
+
+            <Button
+                android:id="@+id/btnRechargeFlow"
+                style="@style/ButtonStyle"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:text="流量 5.38GB" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/CouponTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="每日福利优惠券"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFC107"
+                android:drawableTop="@android:drawable/btn_star_big_on"
+                android:text="满50减2" />
+
+            <Button
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:text="满100减5"
+                android:backgroundTint="#FF9800"
+                android:drawableTop="@android:drawable/btn_star_big_on" />
+
+            <Button
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FF5722"
+                android:drawableTop="@android:drawable/btn_star_big_on"
+                android:text="满200减12" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/FlowPackagesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日促销流量包"
+            android:textSize="24sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#8BC34A"
+                android:drawableTop="@android:drawable/btn_star_big_on"
+                android:text="夜间包" />
+
+            <Button
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#4CAF50"
+                android:drawableTop="@android:drawable/btn_star_big_on"
+                android:text="月末包" />
+
+            <Button
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#009688"
+                android:drawableTop="@android:drawable/btn_star_big_on"
+                android:text="流量日包" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

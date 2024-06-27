@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">话费通</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">抽奖</string>
+    <string name="title_notifications">我的</string>
+    <string name="my_coupons_prompt">我的优惠券</string>
+</resources>
